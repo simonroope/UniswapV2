@@ -23,7 +23,7 @@ const init = async () => {
   const value = trade.inputAmount.raw;
 
   const provider = ethers.getDefaultProvider('mainnet', {
-    infura: 'https://mainnet.infura.io/v3/ba14d1b3cfe5405088ee3c65ebd1d4db' 
+    infura: 'https://mainnet.infura.io/v3/xxxx' 
   });
 
   const signer = new ethers.Wallet(PRIVATE_KEY);
